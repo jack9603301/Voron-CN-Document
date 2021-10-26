@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to Voron-CN-Document’s documentation! &mdash; Voron-CN-Document 2.4 文档</title>
+  <title>欢迎访问 Voron中文文档! &mdash; Voron-CN-Document 2.4 文档</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -38,8 +38,10 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Welcome to Voron-CN-Document’s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#">欢迎访问 Voron中文文档!</a></li>
+<li><a class="reference internal" href="#id1">目录</a></li>
+<li><a class="reference internal" href="#id2">前言</a></li>
+<li><a class="reference internal" href="#id3">硬件篇</a></li>
 </ul>
 </div>
         </div>
@@ -56,9 +58,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home"></a> &raquo;</li>
-      <li>Welcome to Voron-CN-Document’s documentation!</li>
+      <li>欢迎访问 Voron中文文档!</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/index.rst.txt" rel="nofollow"> 查看页面源码</a>
+            <a href="_sources/index.md.txt" rel="nofollow"> 查看页面源码</a>
       </li>
   </ul>
   <hr/>
@@ -66,18 +68,38 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="welcome-to-voron-cn-document-s-documentation">
-<h1>Welcome to Voron-CN-Document’s documentation!<a class="headerlink" href="#welcome-to-voron-cn-document-s-documentation" title="永久链接至标题"></a></h1>
-<div class="toctree-wrapper compound">
-</div>
+  <p>.. Voron-CN-Document documentation master file, created by
+sphinx-quickstart on Wed Oct 27 02:31:17 2021.
+You can adapt this file completely to your liking, but it should at least
+contain the root <code class="docutils literal notranslate"><span class="pre">toctree</span></code> directive.</p>
+<section id="voron">
+<h1>欢迎访问 Voron中文文档!<a class="headerlink" href="#voron" title="永久链接至标题"></a></h1>
+<p>.. toctree::
+:maxdepth: 3
+:caption: Contents:</p>
 </section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="永久链接至标题"></a></h1>
+<section id="id1">
+<h1>目录<a class="headerlink" href="#id1" title="永久链接至标题"></a></h1>
+</section>
+<section id="id2">
+<h1>前言<a class="headerlink" href="#id2" title="永久链接至标题"></a></h1>
+<p>这篇文章将引导大家如何构建一个Voron所需要的所有细节，和其他同类型的文章不同，这是一篇交流为主的教程，欢迎大家完善。
+并尊重所有玩家基于自己场合考虑的所有方案！</p>
+<p>当大家接触3D打印机的时候，我们需要明白一个3D打印机分为机械、电控硬件、软件程序三个部分，机械部分请参考VORON官方的文档。</p>
+<p>电控部分又分为两个部分：应用处理器（即树莓派或者香橙派）和打印机主控板。</p>
+<p>软件部分则主要分为三个部分：OctoPrint、Klipper、Klipper打印机固件</p>
+<p><strong>安全须知</strong></p>
 <ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">索引</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">模块索引</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">搜索页面</span></a></p></li>
+<li><p><strong>3D打印机在组装的过程中涉及到220V市电，请注意操作安全，防止产生不必要的人身伤害，请注意金属外壳的可靠接地</strong></p></li>
+<li><p><strong>在任何时候进行维护或者调试时，请不要带电操作（除非你知道你在做什么？我已经烧了一块树莓派和一块蜘蛛主板）</strong></p></li>
+<li><p><strong>在打印ABS时为了防止吸入过量的VOC，建议使用预防措施（如空气过滤器）;</strong></p></li>
+<li><p><strong>VORON 不是为了在高温环境下打印，如果需要，请自行更改设计，原始设计不建议使用主动舱室加热器，因为这可能引发火灾</strong></p></li>
+<li><p><strong>如果遇到问题，请和官方社区交互，不要在网上看各种不靠谱文章和讨论</strong></p></li>
 </ul>
+<p><em><strong>如果大家感兴趣，请加入QQ群605737406</strong></em></p>
+</section>
+<section id="id3">
+<h1>硬件篇<a class="headerlink" href="#id3" title="永久链接至标题"></a></h1>
 </section>
 
 
