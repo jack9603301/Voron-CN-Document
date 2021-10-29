@@ -44,3 +44,21 @@
 - 温度传感器：3pin温度传感器3路。板载4.7kOhm 0.1%上拉电阻
 - 通讯接口： USB Type-C、UART、EXP1&EXP2有更多的复用功能，，如UART、I2C、CAN等
 - 显示屏： 可适配LCD12864、LCD2004等显示屏
+
+### 蜘蛛主板的电源连线
+
+蜘蛛主板的左边我们可以看到如图所示的接线柱
+
+[![Spider_v1.1_wiring](_static/Spider_v1.1_wiring.svg)](_static/Spider_v1.1_wiring.svg)
+
+**请注意，24V输入永远插在PWR IN接口上，并且注意极性不要错了**
+
+- PWR IN: 电源输入，必须提供
+- BED IN： 热床24V输入，必须提供
+- BED OUT: 电源输出，如果是交流热床，连接固态继电器
+- E2 OUT: 输出E2挤出机加热电源
+- E1 OUT: 输出E1挤出机加热电源
+- E0 OUT: 输出E0挤出机加热电源（接口PB15）
+
+如果你只有一个挤出机，那么你可以连接E0，他的端口是PB15，而BED OUT是PB4。
+
